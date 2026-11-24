@@ -1,5 +1,5 @@
 // Replace these placeholders when the client confirms the business details.
-const CONFIG={businessName:"AGRO STORE",whatsappNumber:"",location:"Nigeria"};
+const CONFIG={businessName:"AGRO STORE",whatsappNumber:"2348067761953",location:"Nigeria"};
 // Sample catalogue placeholders: replace with the client's real stock and verified details.
 const products=[
 {name:"NPK Fertilizer",category:"Fertilizers",description:"Ask for available formulation, pack size and manufacturer information.",icon:"🌱",image:"https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80"},
