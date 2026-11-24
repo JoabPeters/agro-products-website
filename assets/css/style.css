@@ -47,3 +47,10 @@
 .benefits article,.contacts article{box-shadow:0 8px 24px #173e1d08}
 @keyframes heroDrift{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
 @media(max-width:620px){.hero-photo{height:290px}.photo-grid{gap:11px}.photo-grid figure,.photo-grid figure:first-child{height:155px}.product-art{height:175px}.product p{min-height:0}}
+
+/* Floating WhatsApp contact shortcut */
+.floating-whatsapp{position:fixed;right:22px;bottom:24px;z-index:1000;display:flex;align-items:center;gap:10px;padding:12px 17px 12px 13px;border-radius:999px;background:#20c766;color:#fff;box-shadow:0 10px 28px #092b1850;font-size:.88rem;font-weight:800;transition:transform .2s ease,box-shadow .2s ease}
+.floating-whatsapp:hover{transform:translateY(-4px);box-shadow:0 14px 34px #092b1860;background:#16b85a}
+.floating-whatsapp svg{display:block;width:27px;height:27px;fill:currentColor}
+@media(max-width:620px){.floating-whatsapp{right:15px;bottom:16px;padding:12px;border-radius:50%;width:54px;height:54px;justify-content:center}.floating-whatsapp span{display:none}.floating-whatsapp svg{width:29px;height:29px}}
+@media(prefers-reduced-motion:reduce){.floating-whatsapp{transition:none}}
