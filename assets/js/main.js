@@ -31,3 +31,6 @@ if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-mot
   observer.observe(el);
  });
 }
+
+const floatingWhatsApp=document.querySelector("#floating-whatsapp");
+if(floatingWhatsApp){floatingWhatsApp.href=wa("Hello, I visited your website and would like to make a product enquiry.");}
