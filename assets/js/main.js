@@ -2,15 +2,15 @@
 const CONFIG={businessName:"AGRO STORE",whatsappNumber:"",location:"Nigeria"};
 // Sample catalogue placeholders: replace with the client's real stock and verified details.
 const products=[
-{name:"NPK Fertilizer",category:"Fertilizers",description:"Ask for available formulation, pack size and manufacturer information.",icon:"🌱",image:"https://images.unsplash.com/photo-1757670919588-1fe3b3df3dfa?auto=format&fit=crop&w=800&q=80"},
-{name:"Urea Fertilizer",category:"Fertilizers",description:"Contact us to confirm grade, packaging and availability.",icon:"🌾",image:"https://images.unsplash.com/photo-1767457108672-79c6dd48a165?auto=format&fit=crop&w=800&q=80"},
-{name:"Organic Soil Conditioner",category:"Fertilizers",description:"Ask for product composition and manufacturer instructions.",icon:"🍃",image:"https://images.unsplash.com/photo-1767457108672-79c6dd48a165?auto=format&fit=crop&w=800&q=80"},
-{name:"Herbicide",category:"Herbicides",description:"Ask for verified product details, registration status and approved label uses.",icon:"🌿",image:"https://images.unsplash.com/photo-1741874299706-2b8e16839aaa?auto=format&fit=crop&w=800&q=80"},
-{name:"Weed Control Product",category:"Herbicides",description:"Confirm approved use, target weeds and label precautions.",icon:"🧴",image:"https://images.unsplash.com/photo-1743363036194-7caa8fff0912?auto=format&fit=crop&w=800&q=80"},
-{name:"Insecticide",category:"Crop protection",description:"Ask for registration details and label-approved target pests.",icon:"🛡️",image:"https://images.unsplash.com/photo-1743363036194-7caa8fff0912?auto=format&fit=crop&w=800&q=80"},
-{name:"Fungicide",category:"Crop protection",description:"Confirm the crop, disease target and manufacturer label directions.",icon:"🍀",image:"https://images.unsplash.com/photo-1725886783673-acb6727cc531?auto=format&fit=crop&w=800&q=80"},
-{name:"Improved Seeds",category:"Seeds & supplies",description:"Ask about crop variety, seed source and pack size.",icon:"🌽",image:"https://images.unsplash.com/photo-1767457108672-79c6dd48a165?auto=format&fit=crop&w=800&q=80"},
-{name:"Farm Sprayer",category:"Seeds & supplies",description:"Ask about equipment type, capacity and accessories.",icon:"🚿",image:"https://images.unsplash.com/photo-1725886783673-acb6727cc531?auto=format&fit=crop&w=800&q=80"}
+{name:"NPK Fertilizer",category:"Fertilizers",description:"Ask for available formulation, pack size and manufacturer information.",icon:"🌱",image:"https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80"},
+{name:"Urea Fertilizer",category:"Fertilizers",description:"Contact us to confirm grade, packaging and availability.",icon:"🌾",image:"https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=800&q=80"},
+{name:"Organic Soil Conditioner",category:"Fertilizers",description:"Ask for product composition and manufacturer instructions.",icon:"🍃",image:"https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=800&q=80"},
+{name:"Herbicide",category:"Herbicides",description:"Ask for verified product details, registration status and approved label uses.",icon:"🌿",image:"https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=800&q=80"},
+{name:"Weed Control Product",category:"Herbicides",description:"Confirm approved use, target weeds and label precautions.",icon:"🧴",image:"https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=800&q=80"},
+{name:"Insecticide",category:"Crop protection",description:"Ask for registration details and label-approved target pests.",icon:"🛡️",image:"https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=800&q=80"},
+{name:"Fungicide",category:"Crop protection",description:"Confirm the crop, disease target and manufacturer label directions.",icon:"🍀",image:"https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=800&q=80"},
+{name:"Improved Seeds",category:"Seeds & supplies",description:"Ask about crop variety, seed source and pack size.",icon:"🌽",image:"https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=800&q=80"},
+{name:"Farm Sprayer",category:"Seeds & supplies",description:"Ask about equipment type, capacity and accessories.",icon:"🚿",image:"https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=800&q=80"}
 ];
 const list=document.querySelector("#products-list"),search=document.querySelector("#search"),filter=document.querySelector("#filter");
 function wa(message){const n=CONFIG.whatsappNumber.replace(/\D/g,"");return n?"https://wa.me/"+n+"?text="+encodeURIComponent(message):"https://wa.me/?text="+encodeURIComponent(message)}
